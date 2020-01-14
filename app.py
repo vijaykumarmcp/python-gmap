@@ -5,7 +5,7 @@ import googlemaps
 from datetime import datetime
 
 
-gmaps = googlemaps.Client(key='AIzaSyBhZ8mFk-0nHXMcO0dg4enWHgNnmnsoQEo')
+gmaps = googlemaps.Client(key='')
 
 
 app = Flask(__name__)
