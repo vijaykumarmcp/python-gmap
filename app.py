@@ -16,7 +16,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/getdistance', methods=['GET', 'POST'])
 @cross_origin()
-def readcsv():
+def getDistance():
     if request.method == 'GET':
         mode=request.args['mode']
         startLocation=request.args['startlocation']
