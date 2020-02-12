@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 import requests
-import googlemaps
+import googlemaps 
 from datetime import datetime
 
 
-gmaps = googlemaps.Client(key='')
+gmaps = googlemaps.Client(key='AIzaSyBhZ8mFk-0nHXMcO0dg4enWHgNnmnsoQEo')
 
 
 app = Flask(__name__)

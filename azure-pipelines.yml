@@ -78,6 +78,10 @@ stages:
             inputs:
               versionSpec: '$(pythonVersion)'
             displayName: 'Use Python version'
+          - script: |
+              python app.py
+            workingDirectory: $(projectRoot)
+            displayName: "Install requirements"  
 
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App : coeindia'
