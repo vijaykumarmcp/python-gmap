@@ -28,7 +28,7 @@ def getDistance():
         for i in paramList:
 
             if mode not in paramList:
-                statusCode="400"
+                statusCode="404"
                 status="Fail"
                 data="Invalid mode. please, use one of the following mode "+paramList[0]+" ,"+paramList[1]+" ,"+paramList[2]+" ,"+paramList[3]
                 break
